@@ -1,0 +1,79 @@
+body {
+    /* background-color: red; */
+    background-color: rgb(220, 220, 220);
+  }
+  nav {
+    background-color: rgb(128, 128, 128);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index:1;
+  }
+  nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+  }
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+  }
+  .nav-link:hover {
+    color: black;
+    font-weight: bold;
+  }
+  .main {
+    text-align: left;
+    text-indent: 50px;
+  }
+  .landing {
+    text-align: center;
+    margin-top: 100px;
+  }
+  #about {
+    margin-top: 50px;
+    display: inline-block;
+  }
+  #about-picture {
+    width: 30vw;
+    float: left;
+  }
+  #profile-pic {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    border: 7px solid #000000;
+    border-radius: 50%;
+  }
+  #about-content {
+    width: 75vw;
+    float: right;
+  }
+h1 {
+  font-size: 150px;
+}
+h2 {
+  font-size: 75px;
+}
+p {
+  font-size: 30px;
+}
+.img-fluid {
+  height: 300px;
+  width: 325px;
+}
+.footerimg {
+  display: block;
+  margin-left: 80%;
+  height: 150px;
+  width: 150px;
+}
+.gitlink {
+  float: center;
+  width: 50%;
+  padding: 5px;
+}
