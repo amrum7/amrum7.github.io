@@ -28,9 +28,6 @@ p {
   flex-wrap: wrap;
   font-family: 'Acme', sans-serif;
 }
-hr {
-  border: 1px solid rgb(0, 191, 225);
-}
 
 /* NAVIGATION */
 nav {
@@ -76,8 +73,8 @@ nav ul li {
 .about {
   height: 40vw;
   width: 100%;
-  /*padding-top: 10%;
-  padding-left: 10%;*/
+  padding-top: 5%;
+  padding-left: 5%;
 }
 .about-myphoto {
   float: left;
@@ -85,15 +82,16 @@ nav ul li {
   border: 2px solid rgb(0,0,0);
 }
 .about-p {
-  padding-left: 5%;
+  padding-left: 1%;
+  padding-right: 15%;
   /*width: 50%;*/
 }
 
 /* PROJECTS */
 .projects {
-  height: 50vw;
-  padding-top: 10%;
-  padding-left: 10%;
+  height: 60vw;
+  padding-top: 5%;
+  padding-left: 5%;
 }
 .mr-3 {
   width: 200px;
@@ -107,8 +105,7 @@ nav ul li {
 /* CONTACT */
 .contact {
   height: 40vw;
-  padding-top: 10%;
-  padding-left: 10%;
+  padding-top: 5%
 }
 button {
   background-color: rgb(0, 191, 225);
@@ -133,18 +130,9 @@ textarea {
   padding: 15px;
 }
 
-/* FOOTER */
-footer {
-  padding-left: 40%;
-}
-.column {
-  float: left;
-  width: 200px;
-  padding: 5px;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+/* FOOTER *//
+.col-centered {
+  float: none;
+  margin: 0 auto;
 }
 
