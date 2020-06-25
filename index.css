@@ -55,7 +55,9 @@ nav ul li {
   font-size: 150%;
 }
 
+
 /* LANDING */
+
 .landing {
   height: 50vw;
   padding-top: 15%;
@@ -67,12 +69,13 @@ nav ul li {
 }
 #landingtitle {
   font-weight: lighter;
-}
+} 
+
 
 
 /* ABOUT */
 .about {
-  height: 40vw;
+  height: 35vw;
   width: 100%;
   padding-top: 5%;
   padding-left: 5%;
@@ -88,9 +91,63 @@ nav ul li {
   /*width: 50%;*/
 }
 
+/* Skills */
+.skills {
+  background: #d1d1d1;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  /*padding-top: 5%; */
+  padding-left: 5%;
+  align-items: center;
+  justify-content: center; 
+}
+.slider-wrapper {
+  font-size: 30px;
+  color:#fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider{
+  height: 50px;
+  padding-left:15px;
+  overflow: hidden;
+}
+.slider div {
+  color:#fff;
+  font-weight: bold;
+  height: 50px;
+  margin-bottom: 50px;
+  padding: 2px 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.slider-text1 {
+  background: lightgreen;
+  animation: slide 20s linear infinite;
+}
+.slider-text2 {
+  background: blue;
+}
+.slider-text3 {
+  background: lightcoral;
+}
+@keyframes slide {
+  0% {margin-top:-300px;}
+  5% {margin-top:-200px;}
+  33% {margin-top:-200px;}
+  38% {margin-top:-100px;}
+  66% {margin-top:-100px;}
+  71% {margin-top:0px;}
+  100% {margin-top:0px;}
+}
+
 /* PROJECTS */
 .projects {
-  height: 60vw;
+  height: 40vw;
   padding-top: 5%;
   padding-left: 5%;
 }
@@ -106,7 +163,8 @@ nav ul li {
 /* CONTACT */
 .contact {
   height: 40vw;
-  padding-top: 5%
+  padding-top: 5%;
+  padding-left: 5%;
 }
 button {
   background-color: rgb(0, 191, 225);
