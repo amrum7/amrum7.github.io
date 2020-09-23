@@ -1,153 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adam Rumschlag Portfolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="index.css">
-</head>
-
-<body>
-
-  <!--Navigation Bar-->
-  <nav class="navbar">
-    <ul>
-      <li><a href="#contact" class="nav-link">Contact</a></li>
-      <li><a href="https://drive.google.com/file/d/1Q77LcMgWH0R0MWW2kKN-WSIt-KX8Dnq6/view?usp=sharing" class="nav-link"
-          target="blank">Resume</a></li>
-      <li><a href="#projects" class="nav-link">Projects</a></li>
-      <li><a href="#about" class="nav-link">About Me</a></li>
-    </ul>
-  </nav>
-
-
-  <!--Landing-->
-  <div class="landing">
-    <h1 id="landingname"><span>Adam Rumschlag</span></h1>
-    <h1 id="landingtitle">Developer</h1>
-
-  </div> 
-
-  <!--About-->
-
-  <div class="about" id="about">
-    <h2>About Me</h2>
-    <br>
-    <div class="row">
-      <div class="col-md-3">
-        <img src="myphoto.jpg" class="about-myphoto" alt="me">
-      </div>
-      <div class="col-md-9">
-        <p class="about-p">My name is Adam. I currently reside in Indianapolis, IN. I graduated from Purdue University
-          (Fort Wayne) in 2012 with a degree in Organizational Leadership and Supervision. Since that time I have held
-          various service roles in business-to-business organizations. I have experience in building relationships,
-          helping clients implament best practices, troubleshoot technical issues, and leading teams.<br><br>Problem
-          solving has been at the core of all of my roles. In my previous roles I have needed to understand the business
-          of my clients in order to help them get the most out of the software and services I supported. In my current
-          role I am faced with more technical problems. I am tasked with finding the root cause, frequency, and revenue
-          impact so development resources can be prioritized appropriately. This has required me to learn SQL to ensure
-          I gather the necessary facts. These roles have inspired me to learn how to code as I view developers as the
-          ultimate problem solvers.<br><br>In 2020, I made the decision to focus on learning how to code and transition
-          to a career as a developer. I began the Web Development course through the Eleven Fifty Academy in May, 2020.
-        </p>
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adam Rumschlag Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="navbar" class="navbar top">
+      <ul>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
     </div>
-  </div>
 
+    <!-- Landing -->
 
- <!-- Skills -->
- <div class="skills">
-  <div class="slider-wrapper">
-    Skilled in these areas:
-    <div class="slider">
-        <div class="slider-text1">SQL</div>
-        <div class="slider-text2">HTML, CSS, JavaScript</div>
-        <div class="slider-text3">Consulting</div>
-    </div>
-  </div>       
-</div>
-
-  <!--Projects-->
-
-  <div class="projects" id="projects" style="width: 100%;">
-    <h2>Projects</h2>
-    <br><br>
-    <div class="row">
-      <div class="col-md-4">
-        <a href="https://codepen.io/adamrumschlag/pen/NWGowRJ" target=" ">
-          <img src="csscreature.JPG" class="mr-3" alt="css_creature">
-        </a>
-        <h3>CSS Assignment</h3>
-        <p>Created a creature using CSS.</p>
-      </div>
-      <div class="col-md-4">
-        <a href="https://github.com/amrum7/staticLayoutNetflix" target=" ">
-          <img src="netflix.jpg" class="mr-3" alt="static_layout">
-        </a>
-        <h3>Static Layout</h3>
-        <p>Used the Netflix homepage to create a static layout.</p>
-      </div>
-      <div class="col-md-4">
-        <a href="https://amr-api-1829e.firebaseapp.com/" target=" ">
-          <img src="nasa.JPG" class="mr-3" alt="api_project">
-        </a>
-        <h3>API Project</h3>
-        <p>API project utilizing the NASA API.</p>
-      </div>
-    </div>
-  </div>
-
-
-  <!--Contact-->
-
-  <div class="contact" id="contact">
-    <h2>Contact Me</h2>
-    <div class="row">
-      <div class="col-md-12">
-        <form action="https://formspree.io/xyynppoa" method="POST">
-          <br>
-          <label>
-            <h3>Name</h3>
-            <input type="text" name="_replyto" placeholder="First Name, Last Name" size="50">
-          </label>
-          <br>
-          <label>
-            <h3>Email</h3>
-            <input type="text" name="_replyto" placeholder="youremail@email.com" size="50">
-          </label>
-          <br>
-          <label>
-            <h3>Message</h3>
-            <textarea name="message" placeholder="Enter your message here." rows="5" cols="53"></textarea>
-          </label>
-          <br>
-          <button type="submit">Send</button>
-        </form>
+    <div class="jumbotron" id="opacity">
+      <div class="landing">
+        <h1><span>Adam Rumschlag</span></h1>
+        <h2><span>Developer</span></h2>
       </div>
     </div>
 
-  </div>
+    <!-- About -->
 
-  <br><br>
+    <!-- <p class="about-p">My name is Adam. I currently reside in Indianapolis, IN. I graduated from Purdue University
+      (Fort Wayne) in 2012 with a degree in Organizational Leadership and Supervision. Since that time I have held
+      various service roles in business-to-business organizations. I have experience in building relationships,
+      helping clients implament best practices, troubleshoot technical issues, and leading teams.<br><br>Problem
+      solving has been at the core of all of my roles. In my previous roles I have needed to understand the business
+      of my clients in order to help them get the most out of the software and services I supported. In my current
+      role I am faced with more technical problems. I am tasked with finding the root cause, frequency, and revenue
+      impact so development resources can be prioritized appropriately. This has required me to learn SQL to ensure
+      I gather the necessary facts. These roles have inspired me to learn how to code as I view developers as the
+      ultimate problem solvers.<br><br>In 2020, I made the decision to focus on learning how to code and transition
+      to a career as a developer. I began the Web Development course through the Eleven Fifty Academy in May, 2020.
+    </p> -->
 
-  <!--Footer-->
+    <!-- Experience -->
 
-  <footer>
-    <div class="row">
-      <div class="col-md-10 offset-md-5">
-        <a href="https://github.com/amrum7" target="blank">
-          <img src="github.png" alt="github" id="github" style="width:5%">
-          <a href="https://www.linkedin.com/in/adamrumschlag/" target="blank">
-            <img src="linkedin.png" alt="linknedin" id="linkedin" style="width:5%">
+    <!-- Projects -->
+
+    <!-- Contact -->
+
+    <!-- <div class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <form action="https://formspree.io/xyynppoa" method="POST">
+            <br>
+            <label>
+              <h3>Name</h3>
+              <input type="text" name="_replyto" placeholder="First Name, Last Name" size="50">
+            </label>
+            <br>
+            <label>
+              <h3>Email</h3>
+              <input type="text" name="_replyto" placeholder="youremail@email.com" size="50">
+            </label>
+            <br>
+            <label>
+              <h3>Message</h3>
+              <textarea name="message" placeholder="Enter your message here." rows="5" cols="53"></textarea>
+            </label>
+            <br>
+            <button type="submit">Send</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </footer>
+    </div> -->
 
-  <script src="index.js"></script>
-
-</body>
-
+    <!-- Footer -->
+  </body>
 </html>
